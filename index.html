@@ -24,6 +24,7 @@
                               colors: {
                                     clifford: '#da373d',
                                     'primary-color' : '#E76F51',
+                                    'primary-color-bg' : 'rgba(231, 111, 81, 0.10)',
                               }
                         }
                   }
@@ -77,6 +78,51 @@
                         </div>
                   </div>
             </nav>
+            <!-- Carousel -->
+            <div class="carousel w-full bg-primary-color-bg lg:h-[550px] mt-6">
+                  <!-- slide 01 -->
+                  <div id="slide1" class="carousel-item relative w-full">
+                        <div class="flex flex-col lg:flex-row p-4 lg:p-10 xl:p-24 gap-5 lg:gap-24 xl:gap-96 items-center">
+                              <div  class="space-y-3 ">
+                                    <h1 class="text-4xl lg:text-6xl font-bold leading-snug text-black">Ride-on R15 V4 <br>with Smile</h1>
+                                    <p>Amet minim mollit non deserunt ullamco <br>est sit aliqua dolor do amet sint. Velit officia consequat<br> duis enim velit
+                                    mollit.</p>
+                                    <button class="btn bg-primary-color text-white">Purchase</button>
+                              </div>
+                              <div class="flex-1">
+                                    <img src="/images/slider/bike1.png" class="w-full"/>
+                              </div>
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                              <a href="#slide4" class="btn btn-circle">❮</a>
+                              <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                  </div>
+                  <!-- slide 02 -->
+                  <div id="slide2" class="carousel-item relative w-full">
+                        <img src="/images/slider/bike2.png" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                              <a href="#slide1" class="btn btn-circle">❮</a>
+                              <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                  </div>
+                  <!-- slide 03 -->
+                  <div id="slide3" class="carousel-item relative w-full">
+                        <img src="/images/slider/bike3.png" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                              <a href="#slide2" class="btn btn-circle">❮</a>
+                              <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
+                  </div>
+                  <!-- slide 04 -->
+                  <div id="slide4" class="carousel-item relative w-full">
+                        <img src="/images/slider/bike4.png" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                              <a href="#slide3" class="btn btn-circle">❮</a>
+                              <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                  </div>
+            </div>
 
       </header>
       <main class="md:container md:mx-auto">
